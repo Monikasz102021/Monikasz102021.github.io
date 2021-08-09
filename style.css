@@ -1,0 +1,104 @@
+.kep{
+  display: flex;
+  height:400px;
+  font-family: 'Abril Fatface';
+  margin-left: 0;
+  margin-top: 0;  
+  
+}
+.cim1 {
+  position: absolute;
+  margin-left: 50px;
+  margin-top: 200px;
+  color: #9999cc;
+  font-size: 40px;   
+}
+.cim2{
+ position: absolute;
+  margin-left: 50px;
+  margin-top: 210px;
+  color: #9999cc;
+  font-size: 60px;
+  padding-top: 20px;
+  text-align: left;
+
+}
+blockquote::before{ 
+  content: '”';
+}
+.container{
+  display: flex;
+  background-color: #cc99ff;
+  color: #990099;
+  font-family: ‘Abril Fatface’;
+  font-size: 40px;
+  text-align: left;
+  height: 500px;
+  width: 700px
+}
+.cim3{
+  text-transform: uppercase;
+ }
+p {
+  font-family: 'Josefin Sans';
+  font-size: 20px;
+  
+ }
+ul {
+  font-family: 'Josefin Sans';
+  text-align: left;
+  font-size: 30px;
+  list-style-type: square;
+ }
+
+h1 {
+  color: #6600ff;
+}
+.cim4{
+ font-family: 'Josefin Sans';
+}
+
+.cim5{
+  position: absolute;
+  margin-left: 50px;
+  margin-top: 260px;
+  color: #9999cc;
+  font-size: 60px;
+  padding-top: 20px;
+  text-align: left;
+}
+.fejlec1{
+  display: flex;
+  flex-grow: 1;
+  height: 70px;
+  
+}
+.fejlec{
+  display: flex;
+  
+}
+aside{
+  margin-top: 30px;
+  margin-left: 20px;
+  
+    
+}
+.containeruj{
+  display:flex;
+  margin-top:40px;
+  
+  
+}
+button{
+  flex-grow: 1;
+  border: none;
+  font-family: ‘Abril Fatface’;
+  font-size: 40px;
+  color: #ccccff;
+  background-color: #6633ff;
+    
+}
+
+body{
+  color: purple;
+}
